@@ -177,3 +177,4 @@ zkutil export-keys -c build/circuits/withdraw.json -p build/circuits/withdraw.pa
 zkutil generate-verifier -p build/circuits/withdraw.params -v build/circuits/Verifier.sol
 sed -i -e 's/pragma solidity \^0.6.0/pragma solidity 0.5.17/g' ./build/circuits/Verifier.sol
 ```
+Fork test update
